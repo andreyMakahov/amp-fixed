@@ -13,7 +13,7 @@
     <style amp-custom>
         body {
             font-family: 'Georgia', Serif;
-            padding-top: 200px;
+            padding-top: 112px;
         }
         h1 {
             padding: 10px;
@@ -31,42 +31,43 @@
 
         #download {
             width: 100%;
-            height: 100px;
+            height: 56px;
             background: orange;
         }
         #header {
             width: 100%;
-            height: 100px;
+            height: 56px;
             background: green;
         }
         #best-match {
             width: 100%;
-            height: 100px;
+            height: 48px;
             background: yellowgreen;
         }
 
         #promotion {
             background: purple;
-            height: 100px;
+            height: 48px;
         }
 
         #promotion-hidden {
             visibility: hidden;
-            height: 100px;
+            height: 48px;
+            position: fixed;
             width: 100%;
+            top: 112px;
             background: red;
             z-index: 100000000000;
         }
 
         #marker-header {
-            top: 1000px;
+            top: 140vh;
             height: 100%;
             position: absolute;
             width: 100%;
-
         }
         #marker-promotion {
-            top: 100px;
+            top: 48px;
             position: absolute;
         }
     </style>
@@ -89,89 +90,89 @@
 <div id="header-bar">
     <div id="download">download</div>
     <div id="header">header</div>
-    <div id="promotion-hidden">promotion-hidden</div>
 </div>
+<div id="promotion-hidden">promotion-hidden</div>
 
 <div class="search-result">
     <div id="best-match">best match</div>
     <div id="promotion">promotion</div>
     <div id="big-block">
-    <p>1</p>
-    <p>2</p>
-    <p>3</p>
-    <p>4</p>
-    <p>1</p>
-    <p>2</p>
-    <p>3</p>
-    <p>4</p>
-    <p>1</p>
-    <p>2</p>
-    <p>3</p>
-    <p>4</p>
-    <p>1</p>
-    <p>2</p>
-    <p>3</p>
-    <p>4</p>
-    <p>1</p>
-    <p>2</p>
-    <p>3</p>
-    <p>4</p>
-    <p>1</p>
-    <p>2</p>
-    <p>3</p>
-    <p>4</p>
-    <p>1</p>
-    <p>2</p>
-    <p>3</p>
-    <p>4</p>
-    <p>1</p>
-    <p>2</p>
-    <p>3</p>
-    <p>4</p>
-    <p>1</p>
-    <p>2</p>
-    <p>3</p>
-    <p>4</p>
-    <p>1</p>
-    <p>2</p>
-    <p>3</p>
-    <p>4</p>
-    <p>1</p>
-    <p>2</p>
-    <p>3</p>
-    <p>4</p>
-    <p>1</p>
-    <p>2</p>
-    <p>3</p>
-    <p>4</p>
-    <p>2</p>
-    <p>3</p>
-    <p>4</p>
-    <p>2</p>
-    <p>3</p>
-    <p>4</p>
-    <p>2</p>
-    <p>3</p>
-    <p>4</p>
-    <p>1</p>
-    <p>2</p>
-    <p>3</p>
-    <p>4</p>
-    <p>2</p>
-    <p>3</p>
-    <p>4</p>
-    <p>2</p>
-    <p>3</p>
-    <p>4</p>
-    <p>1</p>
-    <p>2</p>
-    <p>3</p>
-    <p>4</p>
-    <p>1</p>
-    <p>2</p>
-    <p>3</p>
-    <p>4</p>
-</div>
+        <p>1</p>
+        <p>2</p>
+        <p>3</p>
+        <p>4</p>
+        <p>1</p>
+        <p>2</p>
+        <p>3</p>
+        <p>4</p>
+        <p>1</p>
+        <p>2</p>
+        <p>3</p>
+        <p>4</p>
+        <p>1</p>
+        <p>2</p>
+        <p>3</p>
+        <p>4</p>
+        <p>1</p>
+        <p>2</p>
+        <p>3</p>
+        <p>4</p>
+        <p>1</p>
+        <p>2</p>
+        <p>3</p>
+        <p>4</p>
+        <p>1</p>
+        <p>2</p>
+        <p>3</p>
+        <p>4</p>
+        <p>1</p>
+        <p>2</p>
+        <p>3</p>
+        <p>4</p>
+        <p>1</p>
+        <p>2</p>
+        <p>3</p>
+        <p>4</p>
+        <p>1</p>
+        <p>2</p>
+        <p>3</p>
+        <p>4</p>
+        <p>1</p>
+        <p>2</p>
+        <p>3</p>
+        <p>4</p>
+        <p>1</p>
+        <p>2</p>
+        <p>3</p>
+        <p>4</p>
+        <p>2</p>
+        <p>3</p>
+        <p>4</p>
+        <p>2</p>
+        <p>3</p>
+        <p>4</p>
+        <p>2</p>
+        <p>3</p>
+        <p>4</p>
+        <p>1</p>
+        <p>2</p>
+        <p>3</p>
+        <p>4</p>
+        <p>2</p>
+        <p>3</p>
+        <p>4</p>
+        <p>2</p>
+        <p>3</p>
+        <p>4</p>
+        <p>1</p>
+        <p>2</p>
+        <p>3</p>
+        <p>4</p>
+        <p>1</p>
+        <p>2</p>
+        <p>3</p>
+        <p>4</p>
+    </div>
 </div>
 
 <amp-animation id="shrinkAnim" layout="nodisplay">
@@ -185,7 +186,19 @@
                 {
                     "selector": "#header-bar",
                     "keyframes": [
-                        { "transform": "translateY(-100px)" }
+                        { "transform": "translateY(-112px)" }
+                    ]
+                },
+                {
+                    "selector": "#header-bar #header",
+                    "keyframes": [
+                        { "transform": "translateY(56px)" }
+                    ]
+                },
+                {
+                    "selector": "#promotion-hidden",
+                    "keyframes": [
+                        { "transform": "translateY(-56px)" }
                     ]
                 }
             ]
@@ -209,6 +222,12 @@
                 },
                 {
                     "selector": "#header-bar #header",
+                    "keyframes": [
+                        { "transform": "translateY(0)" }
+                    ]
+                },
+                {
+                    "selector": "#promotion-hidden",
                     "keyframes": [
                         { "transform": "translateY(0)" }
                     ]
